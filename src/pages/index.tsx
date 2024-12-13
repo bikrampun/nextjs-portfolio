@@ -42,7 +42,7 @@ export default function Home(props: Props) {
     
     text-white h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll z-0 sm:scrollbar-thin sm:scrollbar-thumb-[#F7AB0A]/80 sm:scrollbar-transparent sm:scrollbar-thumb-rounded-full sm:scrollbar-track-rounded-full">
       <Head>
-        <title>{`Sunil Band`}</title>
+        <title>{`Bikram Pun`}</title>
       </Head>
       {/* Header */}
       <Header data={props.data[5]} />

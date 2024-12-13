@@ -55,19 +55,19 @@ const ContactMe = (props: Props) => {
         </h4>
 
         <div className="space-y-3 ">
-          <div className="flex items-center space-x-5 justify-center">
+          {/* <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">+918390685016</p>
-          </div>
+          </div> */}
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Pune</p>
+            <p className="text-2xl">Kathmandu, Nepal</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">sunilbandwork@gmail.com</p>
+            <p className="text-2xl">bikrampun47@gmail.com</p>
           </div>
         </div>
 
