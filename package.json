@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "concurrently \"npm run start\" \"npm run server\"",
     "lint": "next lint",
     "format": "prettier --write .",
     "server": "nodemon src/server/index.js",
