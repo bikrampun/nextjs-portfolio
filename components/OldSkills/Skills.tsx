@@ -16,9 +16,9 @@ function Skills(props: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl cursor-default ">
         Skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
+      {/* <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm cursor-default ">
         hover for current proficiency{" "}
-      </h3>
+      </h3> */}
       <motion.div
         initial={{
           y: 200,
@@ -47,7 +47,7 @@ function Skills(props: Props) {
               key={key}
             >
               {/* js */}
-              <Skill source={item.imageLink} proficiency={item.proficiency} />
+              {/* <Skill source={item.imageLink} proficiency={item.proficiency} /> */}
             </div>
           );
         })}

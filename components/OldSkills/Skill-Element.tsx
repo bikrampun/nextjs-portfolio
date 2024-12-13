@@ -5,10 +5,11 @@ import Image from "next/image";
 type Props = {
   directionLeft?: boolean;
   source: string;
-  proficiency: number;
+  // proficiency: number;
 };
 
-const Skill = ({ directionLeft, source, proficiency }: Props) => {
+// const Skill = ({ directionLeft, source, proficiency }: Props) => {
+const Skill = ({ directionLeft, source }: Props) => {
   return (
     <motion.div
       initial={{
@@ -52,7 +53,7 @@ const Skill = ({ directionLeft, source, proficiency }: Props) => {
       >
         <div className="flex items-center justify-center h-full">
           <p className="text-2xl font-bold text-black opacity-100 cursor-default ">
-            {proficiency}%
+            {/* {proficiency}% */}
           </p>
         </div>
       </motion.div>
