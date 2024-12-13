@@ -8,8 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write .",
-    "server": "node src/server/index.js",
-    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+    "server": "nodemon src/server/index.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "start:all": "concurrently \"npm run start\" \"npm run server\""
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
