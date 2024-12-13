@@ -18,7 +18,8 @@ import ProjectsMobile from "components/ProjectsMobile/ProjectsMobile";
 const inter = Inter({ subsets: ["latin"] });
 export async function getStaticProps() {
   // Get external data from the file system, API, DB, etc.
-  let { data }: any = await axios.get("https://sunilportfolioapi.vercel.app/");
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+  let { data }: any = await axios.get(`${apiUrl}/`);
   // The value of the `props` key will be
   //  passed to the `Home` component
   return {
