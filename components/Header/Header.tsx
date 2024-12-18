@@ -28,6 +28,14 @@ const Header = (props: Props) => {
       >
         {/* Social icons */}
         <SocialIcon
+          url={props.data.gitlab}
+          fgColor="currentColor"
+          bgColor="transparent"
+          className=" hover:scale-110 text-[gray] hover:text-[#F7AB0A]/70 transition ease-in-out duration-100"
+          target="_blank"
+          rel="noreferrer"
+        />
+        <SocialIcon
           url={props.data.github}
           fgColor="currentColor"
           bgColor="transparent"
